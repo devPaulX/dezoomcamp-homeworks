@@ -14,7 +14,7 @@ Evidence is provided via screenshots stored in the `screenshots/` folder, and SQ
 ## Q1. Uncompressed File Size
 **Question:** Within the execution for Yellow Taxi data for the year 2020 and month 12: what is the uncompressed file size?  
 **Answer:** 128.3 MiB
-**Evidence:** ![Q1 Screenshot](screenshots/q1_uncompressed_size.png)
+**Evidence:** ![Q1 Screenshot](w2-workflow-orchestration/screenshots/Q1_uncompressed_size.png)
 
 ---
 
