@@ -28,7 +28,7 @@ Evidence is provided via screenshots stored in the `screenshots/` folder, and SQ
 ## Q3. Yellow Taxi 2020 Row Count
 **Question:** How many rows are there for the Yellow Taxi data for all CSV files in 2020?  
 **Answer:** 24,648,499 rows  
-**Query:** See `queries/week2_queries.sql` → `yellow_tripdata_2020_count.sql`  
+
 
 
 ---
@@ -36,14 +36,12 @@ Evidence is provided via screenshots stored in the `screenshots/` folder, and SQ
 ## Q4. Green Taxi 2020 Row Count
 **Question:** How many rows are there for the Green Taxi data for all CSV files in 2020?  
 **Answer:** 1,734,051 rows  
-**Query:** See `queries/week2_queries.sql` → `green_tripdata_2020_count.sql`  
 
 ---
 
 ## Q5. Yellow Taxi March 2021 Row Count
 **Question:** How many rows are there for the Yellow Taxi data for March 2021?  
-**Answer:** 1,925,152 rows  
-**Query:** See `queries/week2_queries.sql` → `yellow_tripdata_2021_03_count.sql`  
+**Answer:** 1,925,152 rows   
 
 
 ---
