@@ -1,0 +1,19 @@
+# Ignore Postgres and pgAdmin volumes
+vol-pgdata/
+vol-pgadmin_data/
+
+# Ignore Docker artifacts
+*.log
+*.pid
+*.sock
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore everything in data/
+data/*

@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env_encoded
+*.json
+*.key
+*.pem
+
+# Docker volumes and scratch space
+tmp/
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
