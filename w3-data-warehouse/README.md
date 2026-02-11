@@ -72,7 +72,7 @@ w3-data-warehouse/
 ---
 
 ## Q9. Table scans
-**Answer:** `SELECT COUNT(*)` estimates scanning the entire table, because BigQuery must read all rows to count them.  
+**Answer:** `0B
 ![Q9 Screenshot](screenshots/q9_table_scan.png)
 
 ---
