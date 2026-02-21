@@ -83,9 +83,9 @@ Row count sanity checks
 
 
 
-📊 Homework Submission
+## 📊 Homework Submission
 
-Question 1. dbt Lineage and Execution
+**Question 1**. dbt Lineage and Execution
 Given a dbt project with the following structure:
 ```
 models/
@@ -104,13 +104,13 @@ Any model with upstream and downstream dependencies to int_trips_unioned
 int_trips_unioned only
 int_trips_unioned, int_trips, and fct_trips (downstream dependencies)
 
-Ans → stg_green_tripdata, stg_yellow_tripdata, int_trips_unioned
+**Ans** → stg_green_tripdata, stg_yellow_tripdata, int_trips_unioned
 
 
 ![Q1 Screenshot](screenshots/q1_dbt_lineage.png)
 
 
-Question 2. dbt Tests
+**Question 2**. dbt Tests
 You've configured a generic test like this in your schema.yml:
 
 columns:
@@ -129,10 +129,10 @@ dbt will fail the test, returning a non-zero exit code
 dbt will pass the test with a warning about the new value
 dbt will update the configuration to include the new value
 
-Ans → fails if 6 appears
+**Ans** → fails if 6 appears
 
 
-Question 3. Counting Records in fct_monthly_zone_revenue
+**Question 3**. Counting Records in fct_monthly_zone_revenue
 After running your dbt project, query the fct_monthly_zone_revenue model.
 
 What is the count of records in the fct_monthly_zone_revenue model?
@@ -142,12 +142,12 @@ What is the count of records in the fct_monthly_zone_revenue model?
 12,184
 15,421
 
-Ans → 12,184
+**Ans** → 12,184
 
 ![Q3 Screenshot](screenshots/q3_count_rec.png)
 
 
-Question 4. Best Performing Zone for Green Taxis (2020)
+**Question 4**. Best Performing Zone for Green Taxis (2020)
 Using the fct_monthly_zone_revenue table, find the pickup zone with the highest total revenue (revenue_monthly_total_amount) for Green taxi trips in 2020.
 
 Which zone had the highest revenue?
@@ -157,11 +157,11 @@ Morningside Heights
 East Harlem South
 Washington Heights South
 
-Ans → East Harlem South
+**Ans** → East Harlem North
 
 ![Q4 Screenshot](screenshots/q4_best_zone_green.png)
 
-Question 5. Green Taxi Trip Counts (October 2019)
+**Question 5**. Green Taxi Trip Counts (October 2019)
 Using the fct_monthly_zone_revenue table, what is the total number of trips (total_monthly_trips) for Green taxis in October 2019?
 
 500,234
@@ -169,11 +169,11 @@ Using the fct_monthly_zone_revenue table, what is the total number of trips (tot
 384,624
 421,509
 
-Ans → 384,624
+**Ans** → 384,624
 
 ![Q5 Screenshot](screenshots/q5_green_tripcount.png)
 
-Question 6. Build a Staging Model for FHV Data
+**Question 6**. Build a Staging Model for FHV Data
 Create a staging model for the For-Hire Vehicle (FHV) trip data for 2019.
 
 Load the FHV trip data for 2019 into your data warehouse
@@ -187,6 +187,6 @@ What is the count of records in stg_fhv_tripdata?
 22,998,722
 44,112,187
 
-Ans → 43,244,693 rows
+**Ans** → 43,244,693 rows
 
 ![Q6 Screenshot](screenshots/q6_fhv_stag_rowc.png)
