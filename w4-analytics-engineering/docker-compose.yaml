@@ -1,0 +1,8 @@
+services:
+  dbt-runner:
+    build: .
+    container_name: dbt-runner
+    volumes:
+      - .:/app # Mounts everything in the current folder to /app
+    tty: true
+    stdin_open: true

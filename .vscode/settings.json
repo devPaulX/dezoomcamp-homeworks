@@ -1,0 +1,7 @@
+{
+    "dbt.queryLimit": 10000,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    "dbt.projectDir": "/app",
+    "dbt.profilesDir": "/app"
+}

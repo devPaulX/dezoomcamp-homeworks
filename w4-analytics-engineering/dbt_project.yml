@@ -1,0 +1,31 @@
+name: 'zoomcamp_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'zoomcamp_dbt'
+
+
+
+# Paths
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+# Target directory for compiled SQL
+target-path: "target"
+
+# Directory for dbt artifacts
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  zoomcamp_dbt:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

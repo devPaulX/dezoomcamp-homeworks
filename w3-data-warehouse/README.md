@@ -1,3 +1,5 @@
+# 🧱 Data Engineering Zoomcamp – Homework 3: Data Warehouse
+
 📂 Repo Structure
 ```
 w3-data-warehouse/

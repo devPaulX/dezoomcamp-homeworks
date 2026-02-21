@@ -1,0 +1,6 @@
+dbt-core
+dbt-bigquery
+Python >=3.11
+DuckDB
+Google-Cloud-SDK
+dbt-bigquery

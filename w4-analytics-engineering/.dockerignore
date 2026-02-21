@@ -1,0 +1,11 @@
+
+/datasets/
+dbt_packages/
+logs/
+screenshots/
+target/
+.user.yml
+.git/
+.gitignore
+
+

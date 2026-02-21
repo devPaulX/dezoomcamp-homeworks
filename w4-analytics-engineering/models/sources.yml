@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: zoomcamp
+    database: zoomcamp-project-486310
+    schema: zoomcamp
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
+      - name: fhv_tripdata
+      - name: taxi_zones
