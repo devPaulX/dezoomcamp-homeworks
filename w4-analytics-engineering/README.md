@@ -144,7 +144,7 @@ What is the count of records in the fct_monthly_zone_revenue model?
 
 Ans → 12,184
 
-![alt text](q3_count_rec.png)
+![Q3 Screenshot](screenshots/q3_count_rec.png)
 
 
 Question 4. Best Performing Zone for Green Taxis (2020)
@@ -159,7 +159,7 @@ Washington Heights South
 
 Ans → East Harlem South
 
-![alt text](q4_best_zone_green.png)
+![Q4 Screenshot](screenshots/q4_best_zone_green.png)
 
 Question 5. Green Taxi Trip Counts (October 2019)
 Using the fct_monthly_zone_revenue table, what is the total number of trips (total_monthly_trips) for Green taxis in October 2019?
@@ -171,7 +171,7 @@ Using the fct_monthly_zone_revenue table, what is the total number of trips (tot
 
 Ans → 384,624
 
-![alt text](q5_green_tripcount.png)
+![Q5 Screenshot](screenshots/q5_green_tripcount.png)
 
 Question 6. Build a Staging Model for FHV Data
 Create a staging model for the For-Hire Vehicle (FHV) trip data for 2019.
@@ -189,4 +189,4 @@ What is the count of records in stg_fhv_tripdata?
 
 Ans → 43,244,693 rows
 
-![alt text](q6_fhv_stag_rowc.png)
+![Q6 Screenshot](screenshots/q6_fhv_stag_rowc.png)
