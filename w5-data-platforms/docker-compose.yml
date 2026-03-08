@@ -1,0 +1,14 @@
+services:
+  bruin:
+    image: ghcr.io/bruin-data/bruin:latest
+    container_name: bruin-pipeline
+    user: root
+    volumes:
+      - ./pipeline:/app/pipeline
+      - ./data:/app/data
+      - .bruin.yml:/app/.bruin.yml
+      - ../.git:/app/.git 
+    working_dir: /app/pipeline
+    tty: true
+    stdin_open: true
+    command: sleep infinity

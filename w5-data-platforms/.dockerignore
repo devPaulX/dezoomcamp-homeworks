@@ -1,0 +1,6 @@
+logs/
+screenshots/
+.gitignore
+docker-compose.yml
+
+

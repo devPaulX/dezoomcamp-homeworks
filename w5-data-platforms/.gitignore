@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Local databases
+*.db
+data/
+
+# Logs
+pipeline/logs/
+*.log
+
+# Bruin cache
+.brn/

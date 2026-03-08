@@ -1,0 +1,8 @@
+default_environment: default
+
+environments:
+  default:
+    connections:
+      duckdb: # This must be the 'type' of connection
+        - name: "duckdb-default" # This is the name your assets use
+          path: "/app/data/duckdb.db"
