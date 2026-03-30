@@ -1,0 +1,8 @@
+services:
+  bruin:
+    image: bruinlabs/bruin:latest
+    container_name: bruin-nyc-taxi
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: tail -f /dev/null

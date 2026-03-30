@@ -4,3 +4,8 @@ tmp/
 **/.ipynb_checkpoints/
 *.pyc
 *.pyo
+.bruin.yml
+logs/runs
+logs/*.log
+__pycache__/
+*.py[cod]
