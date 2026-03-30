@@ -1,6 +1,8 @@
 
 ⭐ Built using Bruin for ingestion, transformation, and orchestration
 
+💡 This project demonstrates a production-style data pipeline design using modular layers and reproducible orchestration.
+
 # NYC Taxi Data Pipeline & Dashboard 🚕📊
 
 ## Problem Statement
@@ -24,7 +26,10 @@ Marts (aggregations)
         ↓
 Streamlit Dashboard (2 tiles)
 ```
+---
+## Pipeline Lineage
 
+![lineage](screenshots/lineage.png)
 ---
 
 ## Dataset
@@ -35,6 +40,8 @@ Streamlit Dashboard (2 tiles)
 ---
 
 ## Pipeline
+
+Includes data quality validation and lineage tracking for pipeline observability.
 
 ### Ingestion
 
@@ -82,6 +89,15 @@ python -m streamlit run dashboard.py
 
 ---
 
+## Data Quality Checks
+
+Basic validation applied:
+- No null pickup/dropoff timestamps
+- No zero/negative trip distance
+- No zero/negative total amount
+
+---
+
 ## Screenshots
 
 ### Pipeline Run
@@ -109,3 +125,23 @@ python -m streamlit run dashboard.py
 * Used DuckDB for fast local analytics
 * Integrated orchestration + dashboarding
 * Designed a reproducible data workflow
+
+## Design Decisions
+
+- Used DuckDB for fast local analytics without infrastructure overhead
+- Selected batch processing for simplicity and reproducibility
+- Structured pipeline into ingestion → staging → marts for clarity
+- Built dashboard directly on top of mart layer
+
+## Trade-offs
+
+- Streaming pipeline omitted for simplicity and time constraints
+- Limited dataset to one month for faster iteration
+
+## Future Improvements
+
+- Add streaming ingestion (Kafka + Spark)
+- Extend analysis across multiple months
+- Deploy dashboard to cloud
+
+All data is sourced via public URLs and can be re-downloaded using provided commands.

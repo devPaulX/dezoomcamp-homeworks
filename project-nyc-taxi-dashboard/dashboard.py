@@ -30,6 +30,9 @@ def load_data():
 
 trips_df, revenue_df, raw_count, staged_count = load_data()
 
+trips_df = trips_df.sort_values("total_trips", ascending=False)
+revenue_df = revenue_df.sort_values("total_revenue", ascending=False)
+
 st.title("NYC Taxi Trips Dashboard")
 st.caption("Batch pipeline built with Bruin + DuckDB on NYC Yellow Taxi January 2024 data")
 
