@@ -2,6 +2,5 @@ tmp/
 .venv/
 **/__pycache__/
 **/.ipynb_checkpoints/
-
-w6-batch/data/
-w6-batch/output/
+*.pyc
+*.pyo
